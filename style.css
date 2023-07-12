@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  Arial, sans-serif;
+    font-weight: bold;
+}
+.title{
+    color: gray;
+}
+ul{
+    position: relative;
+    left: 30px;
+}
+
+.reload{
+    color :#fff;
+    background-color: gray;
+    padding:10px 15px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
